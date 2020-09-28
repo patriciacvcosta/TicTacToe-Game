@@ -59,15 +59,5 @@ namespace Assignment_1_Tic_Tac_Toe.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap blank_tic_tack_toe_clip_art_tic_tac {
-            get {
-                object obj = ResourceManager.GetObject("blank-tic-tack-toe-clip-art-tic-tac", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

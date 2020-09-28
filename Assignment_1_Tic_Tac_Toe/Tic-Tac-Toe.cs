@@ -16,5 +16,10 @@ namespace Assignment_1_Tic_Tac_Toe
         {
             InitializeComponent();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
