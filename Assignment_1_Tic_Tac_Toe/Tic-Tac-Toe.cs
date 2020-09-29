@@ -12,8 +12,8 @@ namespace Assignment_1_Tic_Tac_Toe
 {
     public partial class Form1 : Form
     {
-        private Image imgX = Assignment_1_Tic_Tac_Toe.Properties.Resources.ImageX;
-        private Image imgO = Assignment_1_Tic_Tac_Toe.Properties.Resources.ImageO;
+        private readonly Image imgX = Properties.Resources.ImageX;
+        private readonly Image imgO = Properties.Resources.ImageO;
 
         bool wasXUsed = false;
         int rounds;
