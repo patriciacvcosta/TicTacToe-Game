@@ -35,64 +35,55 @@ namespace PCostaAssignment1
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            writeXOrO(pictureBox1);
-            rounds++;
+            writeXOrO(pictureBox1);            
             checkWinner();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             writeXOrO(pictureBox2);
-            rounds++;
             checkWinner();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             writeXOrO(pictureBox3);
-            rounds++;
             checkWinner();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             writeXOrO(pictureBox4);
-            rounds++;
             checkWinner();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             writeXOrO(pictureBox5);
-            rounds++;
             checkWinner();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             writeXOrO(pictureBox6);
-            rounds++;
             checkWinner();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             writeXOrO(pictureBox7);
-            rounds++;
             checkWinner();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
             writeXOrO(pictureBox8);
-            rounds++;
             checkWinner();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             writeXOrO(pictureBox9);
-            rounds++;
             checkWinner();
         }
 
@@ -102,10 +93,12 @@ namespace PCostaAssignment1
             {
                 pictureBox.Image = imgX;
                 wasXUsed = true;
+                rounds++;
             }
             else if (pictureBox.Image == null)
             {
                 pictureBox.Image = imgO;
+                rounds++;
                 wasXUsed = false;
 
             }
