@@ -1,4 +1,4 @@
-﻿namespace Assignment_1_Tic_Tac_Toe
+﻿namespace PCostaAssignment1
 {
     partial class Form1
     {

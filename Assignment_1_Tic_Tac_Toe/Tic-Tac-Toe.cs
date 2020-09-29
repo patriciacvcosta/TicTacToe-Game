@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Assignment_1_Tic_Tac_Toe
+namespace PCostaAssignment1
 {
     public partial class Form1 : Form
     {

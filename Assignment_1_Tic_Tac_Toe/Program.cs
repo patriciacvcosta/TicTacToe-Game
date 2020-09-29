@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Assignment_1_Tic_Tac_Toe
+namespace PCostaAssignment1
 {
     static class Program
     {

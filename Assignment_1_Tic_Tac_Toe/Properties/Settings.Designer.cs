@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Assignment_1_Tic_Tac_Toe.Properties
+namespace PCostaAssignment1.Properties
 {
 
 
