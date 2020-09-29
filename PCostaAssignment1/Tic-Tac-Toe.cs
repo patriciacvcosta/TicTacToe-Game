@@ -21,6 +21,7 @@ namespace PCostaAssignment1
         public Form1()
         {
             InitializeComponent();
+            lblPlayerX.Visible = true;
 
         }
 
@@ -93,6 +94,9 @@ namespace PCostaAssignment1
             {
                 pictureBox.Image = imgX;
                 wasXUsed = true;
+                lblPlayerO.Visible = true;
+                lblPlayerX.Visible = false;
+
                 rounds++;
             }
             else if (pictureBox.Image == null)
@@ -100,6 +104,8 @@ namespace PCostaAssignment1
                 pictureBox.Image = imgO;
                 rounds++;
                 wasXUsed = false;
+                lblPlayerO.Visible = false;
+                lblPlayerX.Visible = true;
 
             }
         }
@@ -171,6 +177,9 @@ namespace PCostaAssignment1
             }
             rounds = 0;
             wasXUsed = false;
+            lblPlayerO.Visible = false;
+            lblPlayerX.Visible = true;
+
         }
 
     }

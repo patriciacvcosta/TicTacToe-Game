@@ -41,6 +41,9 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.lblPlayerX = new System.Windows.Forms.Label();
+            this.lblPlayerO = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -51,6 +54,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -85,6 +89,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel1.Controls.Add(this.pictureBox10);
             this.panel1.Controls.Add(this.btnMinimize);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnExit);
@@ -220,11 +225,50 @@
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox10.Image = global::PCostaAssignment1.Properties.Resources.ImageIcon;
+            this.pictureBox10.Location = new System.Drawing.Point(24, 3);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(62, 61);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 28;
+            this.pictureBox10.TabStop = false;
+            // 
+            // lblPlayerX
+            // 
+            this.lblPlayerX.AutoSize = true;
+            this.lblPlayerX.Font = new System.Drawing.Font("Cooper Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayerX.ForeColor = System.Drawing.Color.DarkCyan;
+            this.lblPlayerX.Location = new System.Drawing.Point(44, 90);
+            this.lblPlayerX.Name = "lblPlayerX";
+            this.lblPlayerX.Size = new System.Drawing.Size(161, 62);
+            this.lblPlayerX.TabIndex = 28;
+            this.lblPlayerX.Text = "Player \"X\" \r\nTurn";
+            this.lblPlayerX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPlayerX.Visible = false;
+            // 
+            // lblPlayerO
+            // 
+            this.lblPlayerO.AutoSize = true;
+            this.lblPlayerO.Font = new System.Drawing.Font("Cooper Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayerO.ForeColor = System.Drawing.Color.DarkCyan;
+            this.lblPlayerO.Location = new System.Drawing.Point(282, 90);
+            this.lblPlayerO.Name = "lblPlayerO";
+            this.lblPlayerO.Size = new System.Drawing.Size(161, 62);
+            this.lblPlayerO.TabIndex = 29;
+            this.lblPlayerO.Text = "Player \"O\" \r\nTurn";
+            this.lblPlayerO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPlayerO.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(473, 531);
+            this.Controls.Add(this.lblPlayerO);
+            this.Controls.Add(this.lblPlayerX);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox9);
@@ -250,7 +294,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -268,6 +314,9 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Button btnMinimize;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.Label lblPlayerX;
+        private System.Windows.Forms.Label lblPlayerO;
     }
 }
 
