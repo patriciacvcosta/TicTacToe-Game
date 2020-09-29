@@ -152,18 +152,18 @@ namespace PCostaAssignment1
 
             if (someoneWon && wasXUsed)
             {
-                MessageBox.Show("X Wins!\nPress OK to play a new game.");
+                MessageBox.Show("X Wins!\nPress OK to play a new game.", "Tic-Tac-Toe");
                 restartGame();
             }
             else if (someoneWon && !wasXUsed)
             {
-                MessageBox.Show("O Wins!\nPress OK to play a new game.");
+                MessageBox.Show("O Wins!\nPress OK to play a new game.", "Tic-Tac-Toe");
                 restartGame();
 
             }
             else if (rounds == 9)
             {
-                MessageBox.Show("It's a draw!\nPress OK to play a new game.");
+                MessageBox.Show("It's a draw!\nPress OK to play a new game.", "Tic-Tac-Toe");
                 restartGame();
             }
 
