@@ -245,7 +245,7 @@
             this.lblPlayerX.Name = "lblPlayerX";
             this.lblPlayerX.Size = new System.Drawing.Size(161, 62);
             this.lblPlayerX.TabIndex = 28;
-            this.lblPlayerX.Text = "Player \"X\" \r\nTurn";
+            this.lblPlayerX.Text = "Player \"X\" \r\nTurn!";
             this.lblPlayerX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblPlayerX.Visible = false;
             // 
@@ -258,7 +258,7 @@
             this.lblPlayerO.Name = "lblPlayerO";
             this.lblPlayerO.Size = new System.Drawing.Size(161, 62);
             this.lblPlayerO.TabIndex = 29;
-            this.lblPlayerO.Text = "Player \"O\" \r\nTurn";
+            this.lblPlayerO.Text = "Player \"O\" \r\nTurn!";
             this.lblPlayerO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblPlayerO.Visible = false;
             // 
